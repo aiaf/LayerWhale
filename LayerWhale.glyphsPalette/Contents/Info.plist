@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>16G1114</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Layer Whale</string>
+	<key>CFBundleExecutable</key>
+	<string>LayerWhale</string>
+	<key>CFBundleIconName</key>
+	<string>LayerWhaleIcon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.makkuk.LayerWhale</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>LayerWhale</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleURLIconFile</key>
+			<string>LayerWhaleIcon.icns</string>
+			<key>CFBundleURLName</key>
+			<string>com.makkuk.LayerWhale</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>layerwhale-wd</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1366</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>9C40b</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>17C76</string>
+	<key>DTSDKName</key>
+	<string>macosx10.13</string>
+	<key>DTXcode</key>
+	<string>0920</string>
+	<key>DTXcodeBuild</key>
+	<string>9C40b</string>
+	<key>LWLastUpdated</key>
+	<string>Nov 3rd 2018</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright, Makkuk, 2018</string>
+	<key>UpdateFeedURL</key>
+	<string>https://makkuk.com/layerwhale/api/LayerWhale-Info.xml</string>
+	<key>WDGBuyOnlineURL</key>
+	<string>https://makkuk.com/layerwhale/buy</string>
+	<key>WDGServerCheckURL</key>
+	<string>https://makkuk.com/layerwhale/api/verify-serial.php</string>
+	<key>WDGSupportURL</key>
+	<string>https://makkuk.com/layerwhale/trial-expired</string>
+	<key>productPageURL</key>
+	<string>https://makkuk.com/layerwhale/</string>
+	<key>productReleaseNotes</key>
+	<string>Initial public release</string>
+</dict>
+</plist>
