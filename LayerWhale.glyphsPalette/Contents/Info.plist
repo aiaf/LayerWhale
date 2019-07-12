@@ -21,7 +21,7 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
@@ -42,7 +42,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1366</string>
+	<string>1392</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -58,9 +58,9 @@
 	<key>DTXcodeBuild</key>
 	<string>9C40b</string>
 	<key>LWLastUpdated</key>
-	<string>Nov 3rd 2018</string>
+	<string>Jul 12th 2019</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright, Makkuk, 2018</string>
+	<string>Copyright, Makkuk, 2019</string>
 	<key>UpdateFeedURL</key>
 	<string>https://makkuk.com/layerwhale/api/LayerWhale-Info.xml</string>
 	<key>WDGBuyOnlineURL</key>
@@ -72,6 +72,6 @@
 	<key>productPageURL</key>
 	<string>https://makkuk.com/layerwhale/</string>
 	<key>productReleaseNotes</key>
-	<string>Initial public release</string>
+	<string>Fixed export to MP4 and playback issues</string>
 </dict>
 </plist>

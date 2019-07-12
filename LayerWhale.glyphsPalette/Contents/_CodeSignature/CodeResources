@@ -42,7 +42,7 @@
 		</data>
 		<key>Resources/Base.lproj/LWPlayer.nib</key>
 		<data>
-		xlJUTFUjKA5bd4sEy/zjdZ60BoA=
+		ZkI+zjkvpAF8rMgOjeBvOmgQL+w=
 		</data>
 		<key>Resources/Base.lproj/LWPrefsViewController.nib</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			bZZBv1IlYEUjr/jkXrFRnZfKYos=
+			BahWSrC86kkhIoy+9rnl1WP2shw=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.konstantinpavlikhin.Watchdog" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Abdullah Arif (P7RCE767P3)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -139,7 +139,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KZ3xK7DUuV6D22aMMvLGi/VjCJzEpe7GAZ68lCr7a9E=
+			HPhrEQkzjXvQQOYq+ra5zk5n4tlQsSFBApap3P9uEzI=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/LWPrefsViewController.nib</key>
