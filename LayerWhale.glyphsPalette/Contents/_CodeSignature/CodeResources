@@ -14,11 +14,11 @@
 		</data>
 		<key>Resources/Base.lproj/LWExportBackgroundLayerTemplate.pdf</key>
 		<data>
-		zn8Aag4Jy7kjxm3s87LGo+74Y1E=
+		jylVNm1dPLuBB4UuYFx5pm+igL4=
 		</data>
 		<key>Resources/Base.lproj/LWExportLayerTemplate.pdf</key>
 		<data>
-		u4wXzrQqK1fSpXYdeGEOAhKsT9k=
+		b3Atrj/oaOKnf2WX3kNLt7WiqSk=
 		</data>
 		<key>Resources/Base.lproj/LWExportTemplate.pdf</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Resources/Base.lproj/LWExportViewController.nib</key>
 		<data>
-		T7ucuOtXWPeB/10fTbcF/NMz5N4=
+		mhZBN7S3suPKMKzzMX53upYlJjQ=
 		</data>
 		<key>Resources/Base.lproj/LWIconTemplate.pdf</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Resources/Base.lproj/LWPlayer.nib</key>
 		<data>
-		ZkI+zjkvpAF8rMgOjeBvOmgQL+w=
+		SKbH+lWRyuGSq2448DV3BQMblTY=
 		</data>
 		<key>Resources/Base.lproj/LWPrefsViewController.nib</key>
 		<data>
-		OSAZzRPv9zd1G3oIVvRBS+8gtrI=
+		QKG0z/BWjehhQv71bakLNaGhVqc=
 		</data>
 		<key>Resources/Base.lproj/LWRevertTemplate.pdf</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Resources/Base.lproj/LWTimelinePalette.nib</key>
 		<data>
-		eNCtkRjfO+1oQiPIj/m4kIQYK/c=
+		oW4J9Yfl7lqPmFSR1qKUC0QR5Hk=
 		</data>
 		<key>Resources/LayerWhaleIcon.icns</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			BahWSrC86kkhIoy+9rnl1WP2shw=
+			9J0xJ2tN5vfO1/6twsGOMytN9L8=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.konstantinpavlikhin.Watchdog" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Abdullah Arif (P7RCE767P3)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -90,14 +90,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ivjRQBxlLqN7ShYAOP5N0BJcKaTyXwESLU7XXeR+GfA=
+			ITg4hQWjKLo0DiTP0jzEaNsWWY5lqq6Jb0grB6acKE8=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/LWExportLayerTemplate.pdf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TCcM36YwQnjjVusJgEBfyp2u9zW4NNqWRVxxKFfanPQ=
+			SjsYLHK3OG2ECiXd15Ten3F5KKeSlBN5t1tHMxZCHho=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/LWExportTemplate.pdf</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RnluKajn6f7GB5Lpt13bldMwlz/ZAgb8qNcAVvn0kpU=
+			tkh++yr6BeYYEMR1JnVdR9baR1F4okksXPApQgvYdFU=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/LWIconTemplate.pdf</key>
@@ -139,14 +139,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HPhrEQkzjXvQQOYq+ra5zk5n4tlQsSFBApap3P9uEzI=
+			Jg8rLcp47d6syqgynS3xV7dfLivDvubjdYzcSBjiZ9s=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/LWPrefsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ej626ohqG0zoWBooMiVo7vFqRqDvS5/VXCSZ9d2MFzA=
+			Nc7aeQoiQul3G0Yxua7GJMTIvUmg09zJFeR1cjg5NZs=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/LWRevertTemplate.pdf</key>
@@ -160,7 +160,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DL84Z3q92VBJuELLuAno3CPpX45SzStyCRZ5KcJdDJQ=
+			ebF6BaRg4U07jMdvhpNf/jfdvTR246WVyuXWILjX3NM=
 			</data>
 		</dict>
 		<key>Resources/LayerWhaleIcon.icns</key>

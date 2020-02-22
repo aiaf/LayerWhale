@@ -6,19 +6,19 @@
 	<dict>
 		<key>Resources/Base.lproj/WDGRegistrationStatus.nib</key>
 		<data>
-		wSMQct+mtAo686f4HWWC2AOBhN0=
+		knSKjR5UsMp139NywnEQkR40UpE=
 		</data>
 		<key>Resources/Base.lproj/WDGRegistrationWindow.nib</key>
 		<data>
-		HuSnJs5Yj/6xY6TbEIPjYFJ8uU4=
+		442xuQeGP6LjzrZd6bFT9I1WoZk=
 		</data>
 		<key>Resources/Base.lproj/WDGSerialEntry.nib</key>
 		<data>
-		nzBNf02DnjD2nEdCV6dWSF6SbYk=
+		/E58Qsx/kuCYs8LO9NQ/AZTekTk=
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		9kUSWvybUkxP8LuyByTaXbC/5rU=
+		h+4qHBN5cM0itZgL+x32LVgKE+U=
 		</data>
 		<key>Resources/en.lproj/Localizable.strings</key>
 		<dict>
@@ -99,28 +99,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wYBX8mO4eCu2GhbWlhzzxeDWNONz/dHX4CAuDNFePdA=
+			dJxd4BprTkmPtuNT+UAaGLRyTHYtr92wl1fodVsUuNU=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/WDGRegistrationWindow.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BLkDfSi0mManlFC0bW6ejAyxpMnP4Ch+MeQcFkaUzzQ=
+			Nc3W1R+h0IQ4XBaP6eMcpaxzffsrtWb5XU8zHQoyM9U=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/WDGSerialEntry.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KVR55GJ7dc+mTe4byGvayTzhpyUo25jdJ2K17CGP93Y=
+			pJYoGeKDYtRnbBX0m4lYRshpl48aPZhjlw9vpix/HL8=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mCoFiiU6IpmdHAb6KFZW3TJvDeVVSvekD1a/HLYP5F4=
+			gJQc0Y67zMK9f0i8b+ZR3zBG+ZKET5RORa36F+p5FrQ=
 			</data>
 		</dict>
 		<key>Resources/en.lproj/Localizable.strings</key>
