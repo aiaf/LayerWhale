@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381F065820F571AD007CCB7C /* LWInvertTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 381F065620F571AD007CCB7C /* LWInvertTemplate.pdf */; };
+		381F766C212CA6BC00D9221D /* LWExportTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 381F766A212CA6BB00D9221D /* LWExportTemplate.pdf */; };
+		382C579421814A40005B40F0 /* LWPrefsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 382C579621814A40005B40F0 /* LWPrefsViewController.xib */; };
+		382C579721814A59005B40F0 /* LWExportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 382C579921814A59005B40F0 /* LWExportViewController.xib */; };
+		383C4A2A20DB0BB700040C09 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383C4A2920DB0BB700040C09 /* Cocoa.framework */; };
+		383C4A3220DB0BB700040C09 /* LWTimelinePalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 383C4A3120DB0BB700040C09 /* LWTimelinePalette.m */; };
+		383C4A3620DB0BB700040C09 /* LWTimelinePalette.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383C4A3420DB0BB700040C09 /* LWTimelinePalette.xib */; };
+		384256A3213422FC0003CD7D /* LWOverlayScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 384256A121341D0B0003CD7D /* LWOverlayScrollView.m */; };
+		385048492174E4A600D36462 /* LayerWhaleIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 385048472174E4A600D36462 /* LayerWhaleIcon.icns */; };
+		385E5AF32188ADFC009BB618 /* GSAnchor+LWEquality.m in Sources */ = {isa = PBXBuildFile; fileRef = 385E5AF22188ADFC009BB618 /* GSAnchor+LWEquality.m */; };
+		387BC8522116E021004F13B5 /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 387BC8502116E021004F13B5 /* NSData+GZIP.m */; };
+		38815517213819DE002FCEBF /* LWPrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38815515213819DE002FCEBF /* LWPrefsViewController.m */; };
+		3881551B213826D7002FCEBF /* LWIconTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 38815519213826D7002FCEBF /* LWIconTemplate.pdf */; };
+		38A9713421811C1F006F081C /* LWPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38E586FA20EF92230088AA7D /* LWPlayer.xib */; };
+		38ADB2FA2181E9E200E32D8A /* LWBookmarkTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 38ADB2F82181E9E200E32D8A /* LWBookmarkTemplate.pdf */; };
+		38ADB2FD2181EEDF00E32D8A /* LWMenuTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 38ADB2FB2181EEDF00E32D8A /* LWMenuTemplate.pdf */; };
+		38ADB30021824AFA00E32D8A /* LWPlayerSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ADB2FF21824AFA00E32D8A /* LWPlayerSliderCell.m */; };
+		38C9C9B121848BC7000EBF82 /* LWRevertTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 38C9C9AF21848BC7000EBF82 /* LWRevertTemplate.pdf */; };
+		38CA3AB1212315C100AB2632 /* LWExportLayerTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA3AAD212315C000AB2632 /* LWExportLayerTemplate.pdf */; };
+		38CA3AB2212315C100AB2632 /* LWExportBackgroundLayerTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 38CA3AAF212315C000AB2632 /* LWExportBackgroundLayerTemplate.pdf */; };
+		38E001002F488233005467AC /* GlyphsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383C4A3720DB0BB700040C09 /* GlyphsCore.framework */; };
+		38E454572125DEA40041B3E1 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E454512125DEA40041B3E1 /* YYImageCoder.m */; };
+		38E586F920EF92110088AA7D /* LWPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E586F720EF92100088AA7D /* LWPlayerController.m */; };
+		38E5C40A2129A3B900D43B65 /* LWExportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E5C4082129A3B900D43B65 /* LWExportViewController.m */; };
+		38EEB9852170E216004B3EA1 /* LWAspectRatioTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 38EEB9822170E216004B3EA1 /* LWAspectRatioTemplate.pdf */; };
+		E9606018F06E9E99821FD3ED /* NSBezierPath+CGPathGeneration.m in Sources */ = {isa = PBXBuildFile; fileRef = E9606304359E7DE868DE9A0C /* NSBezierPath+CGPathGeneration.m */; };
+		E9606293457BBC5F5AC7A26B /* LWPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E960651B7A0EA54C6F158F8C /* LWPlayer.m */; };
+		E960631C6A572678FB252C91 /* LWLayerObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E9606EE77CB77C52DE8A95F3 /* LWLayerObserver.m */; };
+		E96063B7D87C2D1F9DE5C4C2 /* LWPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = E9606944731732EDEAD96C0D /* LWPreferences.m */; };
+		E96063EE8168ED664BCED71B /* LWCGPathContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E96063794C72E7AC2758D844 /* LWCGPathContainer.m */; };
+		E960666FB08F6F6988C6C54F /* NSColor+LWUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E9606D92262C00CC9F969759 /* NSColor+LWUtility.m */; };
+		E9606708DF1592369A0BB927 /* LWTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = E9606C25775CA9A1010FA5AC /* LWTimeline.m */; };
+		E96068084F9F76C8264170B7 /* LWCenteringClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9606668184C313E75347F81 /* LWCenteringClipView.m */; };
+		E9606C728F6DBBEF4AA063B8 /* GSGuideLine+LWEquality.m in Sources */ = {isa = PBXBuildFile; fileRef = E9606B0B3BB49C8A56D3B9E4 /* GSGuideLine+LWEquality.m */; };
+		E9606E827D711755A5FB9D2E /* GSLayer+LWTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = E9606A567EEF468D0039CEF2 /* GSLayer+LWTimeline.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		382C5792218149ED005B40F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LWPlayer.xib; sourceTree = "<group>"; };
+		382C579321814A2B005B40F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LWTimelinePalette.xib; sourceTree = "<group>"; };
+		382C579521814A40005B40F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LWPrefsViewController.xib; sourceTree = "<group>"; };
+		382C579821814A59005B40F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LWExportViewController.xib; sourceTree = "<group>"; };
+		382C579A21814B0E005B40F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Base; path = Base.lproj/LWIconTemplate.pdf; sourceTree = "<group>"; };
+		382C579B21814B17005B40F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Base; path = Base.lproj/LWExportTemplate.pdf; sourceTree = "<group>"; };
+		382C579C21814B1E005B40F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Base; path = Base.lproj/LWAspectRatioTemplate.pdf; sourceTree = "<group>"; };
+		382C579D21814B27005B40F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Base; path = Base.lproj/LWExportBackgroundLayerTemplate.pdf; sourceTree = "<group>"; };
+		382C579E21814B2D005B40F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Base; path = Base.lproj/LWExportLayerTemplate.pdf; sourceTree = "<group>"; };
+		382C579F21814B35005B40F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Base; path = Base.lproj/LWInvertTemplate.pdf; sourceTree = "<group>"; };
+		383C4A2620DB0BB700040C09 /* LayerWhale.glyphsPalette */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayerWhale.glyphsPalette; sourceTree = BUILT_PRODUCTS_DIR; };
+		383C4A2920DB0BB700040C09 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		383C4A2E20DB0BB700040C09 /* LayerWhale-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "LayerWhale-Info.plist"; sourceTree = "<group>"; };
+		383C4A3020DB0BB700040C09 /* LWTimelinePalette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWTimelinePalette.h; sourceTree = "<group>"; };
+		383C4A3120DB0BB700040C09 /* LWTimelinePalette.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWTimelinePalette.m; sourceTree = "<group>"; };
+		383C4A3720DB0BB700040C09 /* GlyphsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GlyphsCore.framework; path = /Applications/Glyphs.app/Contents/Frameworks/GlyphsCore.framework; sourceTree = "<absolute>"; };
+		384256A021341D0B0003CD7D /* LWOverlayScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWOverlayScrollView.h; sourceTree = "<group>"; };
+		384256A121341D0B0003CD7D /* LWOverlayScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWOverlayScrollView.m; sourceTree = "<group>"; };
+		385048472174E4A600D36462 /* LayerWhaleIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = LayerWhaleIcon.icns; sourceTree = "<group>"; };
+		385E5AF12188ADFC009BB618 /* GSAnchor+LWEquality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSAnchor+LWEquality.h"; sourceTree = "<group>"; };
+		385E5AF22188ADFC009BB618 /* GSAnchor+LWEquality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GSAnchor+LWEquality.m"; sourceTree = "<group>"; };
+		387BC84D2116E021004F13B5 /* GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZIP.h; sourceTree = "<group>"; };
+		387BC84E2116E021004F13B5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387BC84F2116E021004F13B5 /* NSData+GZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GZIP.h"; sourceTree = "<group>"; };
+		387BC8502116E021004F13B5 /* NSData+GZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GZIP.m"; sourceTree = "<group>"; };
+		38815514213819DE002FCEBF /* LWPrefsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWPrefsViewController.h; sourceTree = "<group>"; };
+		38815515213819DE002FCEBF /* LWPrefsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWPrefsViewController.m; sourceTree = "<group>"; };
+		38ADB2F92181E9E200E32D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Base; path = Base.lproj/LWBookmarkTemplate.pdf; sourceTree = "<group>"; };
+		38ADB2FC2181EEDF00E32D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Base; path = Base.lproj/LWMenuTemplate.pdf; sourceTree = "<group>"; };
+		38ADB2FE21824AFA00E32D8A /* LWPlayerSliderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWPlayerSliderCell.h; sourceTree = "<group>"; };
+		38ADB2FF21824AFA00E32D8A /* LWPlayerSliderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWPlayerSliderCell.m; sourceTree = "<group>"; };
+		38C9C9B021848BC7000EBF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Base; path = Base.lproj/LWRevertTemplate.pdf; sourceTree = "<group>"; };
+		38E454502125DEA40041B3E1 /* YYImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
+		38E454512125DEA40041B3E1 /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
+		38E586F720EF92100088AA7D /* LWPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPlayerController.m; sourceTree = "<group>"; };
+		38E586F820EF92100088AA7D /* LWPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPlayerController.h; sourceTree = "<group>"; };
+		38E5C4072129A3B900D43B65 /* LWExportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWExportViewController.h; sourceTree = "<group>"; };
+		38E5C4082129A3B900D43B65 /* LWExportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWExportViewController.m; sourceTree = "<group>"; };
+		E960610713A53B9A591E04EB /* LWPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPlayer.h; sourceTree = "<group>"; };
+		E9606304359E7DE868DE9A0C /* NSBezierPath+CGPathGeneration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+CGPathGeneration.m"; sourceTree = "<group>"; };
+		E96063794C72E7AC2758D844 /* LWCGPathContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWCGPathContainer.m; sourceTree = "<group>"; };
+		E9606396642F6FCFE22808B6 /* NSBezierPath+CGPathGeneration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+CGPathGeneration.h"; sourceTree = "<group>"; };
+		E960641E2CC0FE248030675D /* NSColor+LWUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+LWUtility.h"; sourceTree = "<group>"; };
+		E960647F69364E6FAE0763DA /* LWTimeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWTimeline.h; sourceTree = "<group>"; };
+		E96064843FE69880C06BCA8F /* LWPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPreferences.h; sourceTree = "<group>"; };
+		E96064CCD7DE8DA374E6C74F /* LWLayerObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWLayerObserver.h; sourceTree = "<group>"; };
+		E960651B7A0EA54C6F158F8C /* LWPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPlayer.m; sourceTree = "<group>"; };
+		E9606668184C313E75347F81 /* LWCenteringClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWCenteringClipView.m; sourceTree = "<group>"; };
+		E96067BCF416A9335B33EA0A /* GSLayer+LWTimeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GSLayer+LWTimeline.h"; sourceTree = "<group>"; };
+		E9606846CAE2562A9E8E8344 /* LWCenteringClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWCenteringClipView.h; sourceTree = "<group>"; };
+		E9606944731732EDEAD96C0D /* LWPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPreferences.m; sourceTree = "<group>"; };
+		E9606A567EEF468D0039CEF2 /* GSLayer+LWTimeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GSLayer+LWTimeline.m"; sourceTree = "<group>"; };
+		E9606B0B3BB49C8A56D3B9E4 /* GSGuideLine+LWEquality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GSGuideLine+LWEquality.m"; sourceTree = "<group>"; };
+		E9606B0CEFFDFDD91E7A36C3 /* GSGuideLine+LWEquality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GSGuideLine+LWEquality.h"; sourceTree = "<group>"; };
+		E9606BAC9C9712E7BF06C881 /* LWCGPathContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWCGPathContainer.h; sourceTree = "<group>"; };
+		E9606C25775CA9A1010FA5AC /* LWTimeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWTimeline.m; sourceTree = "<group>"; };
+		E9606D92262C00CC9F969759 /* NSColor+LWUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+LWUtility.m"; sourceTree = "<group>"; };
+		E9606EE77CB77C52DE8A95F3 /* LWLayerObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWLayerObserver.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		383C4A2320DB0BB700040C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383C4A2A20DB0BB700040C09 /* Cocoa.framework in Frameworks */,
+				38E001002F488233005467AC /* GlyphsCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		380CE1AD210CCD90004D1356 /* GS Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E9606A567EEF468D0039CEF2 /* GSLayer+LWTimeline.m */,
+				E96067BCF416A9335B33EA0A /* GSLayer+LWTimeline.h */,
+				E9606B0B3BB49C8A56D3B9E4 /* GSGuideLine+LWEquality.m */,
+				E9606B0CEFFDFDD91E7A36C3 /* GSGuideLine+LWEquality.h */,
+				385E5AF12188ADFC009BB618 /* GSAnchor+LWEquality.h */,
+				385E5AF22188ADFC009BB618 /* GSAnchor+LWEquality.m */,
+			);
+			name = "GS Categories";
+			sourceTree = "<group>";
+		};
+		380CE1AE210CCDDB004D1356 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				384256A021341D0B0003CD7D /* LWOverlayScrollView.h */,
+				384256A121341D0B0003CD7D /* LWOverlayScrollView.m */,
+				38815519213826D7002FCEBF /* LWIconTemplate.pdf */,
+				381F766A212CA6BB00D9221D /* LWExportTemplate.pdf */,
+				38EEB9822170E216004B3EA1 /* LWAspectRatioTemplate.pdf */,
+				38CA3AAF212315C000AB2632 /* LWExportBackgroundLayerTemplate.pdf */,
+				38C9C9AF21848BC7000EBF82 /* LWRevertTemplate.pdf */,
+				38CA3AAD212315C000AB2632 /* LWExportLayerTemplate.pdf */,
+				381F065620F571AD007CCB7C /* LWInvertTemplate.pdf */,
+				38E586FA20EF92230088AA7D /* LWPlayer.xib */,
+				E9606668184C313E75347F81 /* LWCenteringClipView.m */,
+				E9606846CAE2562A9E8E8344 /* LWCenteringClipView.h */,
+				38E586F820EF92100088AA7D /* LWPlayerController.h */,
+				38E586F720EF92100088AA7D /* LWPlayerController.m */,
+				E960651B7A0EA54C6F158F8C /* LWPlayer.m */,
+				E960610713A53B9A591E04EB /* LWPlayer.h */,
+				38ADB2FE21824AFA00E32D8A /* LWPlayerSliderCell.h */,
+				38ADB2FF21824AFA00E32D8A /* LWPlayerSliderCell.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		381C928E217E0975000504AE /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				38E5C4072129A3B900D43B65 /* LWExportViewController.h */,
+				38E5C4082129A3B900D43B65 /* LWExportViewController.m */,
+				382C579921814A59005B40F0 /* LWExportViewController.xib */,
+			);
+			name = Export;
+			sourceTree = "<group>";
+		};
+		383C4A1D20DB0BB700040C09 = {
+			isa = PBXGroup;
+			children = (
+				387BC84B2116E021004F13B5 /* Vendor */,
+				383C4A2B20DB0BB700040C09 /* LayerWhale */,
+				383C4A2820DB0BB700040C09 /* Frameworks */,
+				383C4A2720DB0BB700040C09 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		383C4A2720DB0BB700040C09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				383C4A2620DB0BB700040C09 /* LayerWhale.glyphsPalette */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		383C4A2820DB0BB700040C09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				383C4A2920DB0BB700040C09 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		383C4A2B20DB0BB700040C09 /* LayerWhale */ = {
+			isa = PBXGroup;
+			children = (
+				381C928E217E0975000504AE /* Export */,
+				3898F66E213C10800018934A /* Preferences */,
+				383C4A3320DB0BB700040C09 /* Supporting Files */,
+				380CE1AD210CCD90004D1356 /* GS Categories */,
+				380CE1AE210CCDDB004D1356 /* Player */,
+				383C4A2E20DB0BB700040C09 /* LayerWhale-Info.plist */,
+				383C4A3420DB0BB700040C09 /* LWTimelinePalette.xib */,
+				38ADB2FB2181EEDF00E32D8A /* LWMenuTemplate.pdf */,
+				38ADB2F82181E9E200E32D8A /* LWBookmarkTemplate.pdf */,
+				383C4A3020DB0BB700040C09 /* LWTimelinePalette.h */,
+				383C4A3120DB0BB700040C09 /* LWTimelinePalette.m */,
+				E9606C25775CA9A1010FA5AC /* LWTimeline.m */,
+				E960647F69364E6FAE0763DA /* LWTimeline.h */,
+				E9606EE77CB77C52DE8A95F3 /* LWLayerObserver.m */,
+				E96064CCD7DE8DA374E6C74F /* LWLayerObserver.h */,
+				E96063794C72E7AC2758D844 /* LWCGPathContainer.m */,
+				E9606BAC9C9712E7BF06C881 /* LWCGPathContainer.h */,
+				E9606304359E7DE868DE9A0C /* NSBezierPath+CGPathGeneration.m */,
+				E9606396642F6FCFE22808B6 /* NSBezierPath+CGPathGeneration.h */,
+				E9606D92262C00CC9F969759 /* NSColor+LWUtility.m */,
+				E960641E2CC0FE248030675D /* NSColor+LWUtility.h */,
+			);
+			path = LayerWhale;
+			sourceTree = "<group>";
+		};
+		383C4A3320DB0BB700040C09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				385048472174E4A600D36462 /* LayerWhaleIcon.icns */,
+				383C4A3720DB0BB700040C09 /* GlyphsCore.framework */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		387BC84B2116E021004F13B5 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				38E454492125DEA40041B3E1 /* YYImage */,
+				387BC84C2116E021004F13B5 /* GZIP */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		387BC84C2116E021004F13B5 /* GZIP */ = {
+			isa = PBXGroup;
+			children = (
+				387BC84D2116E021004F13B5 /* GZIP.h */,
+				387BC84E2116E021004F13B5 /* Info.plist */,
+				387BC84F2116E021004F13B5 /* NSData+GZIP.h */,
+				387BC8502116E021004F13B5 /* NSData+GZIP.m */,
+			);
+			path = GZIP;
+			sourceTree = "<group>";
+		};
+		3898F66E213C10800018934A /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				E9606944731732EDEAD96C0D /* LWPreferences.m */,
+				E96064843FE69880C06BCA8F /* LWPreferences.h */,
+				38815514213819DE002FCEBF /* LWPrefsViewController.h */,
+				38815515213819DE002FCEBF /* LWPrefsViewController.m */,
+				382C579621814A40005B40F0 /* LWPrefsViewController.xib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		38E454492125DEA40041B3E1 /* YYImage */ = {
+			isa = PBXGroup;
+			children = (
+				38E454502125DEA40041B3E1 /* YYImageCoder.h */,
+				38E454512125DEA40041B3E1 /* YYImageCoder.m */,
+			);
+			path = YYImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		383C4A2520DB0BB700040C09 /* LayerWhale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383C4A3C20DB0BB700040C09 /* Build configuration list for PBXNativeTarget "LayerWhale" */;
+			buildPhases = (
+				383C4A2220DB0BB700040C09 /* Sources */,
+				383C4A2320DB0BB700040C09 /* Frameworks */,
+				383C4A2420DB0BB700040C09 /* Resources */,
+				384256A5213469BC0003CD7D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LayerWhale;
+			productName = Recorder;
+			productReference = 383C4A2620DB0BB700040C09 /* LayerWhale.glyphsPalette */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		383C4A1E20DB0BB700040C09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Abdullah Arif";
+				TargetAttributes = {
+					383C4A2520DB0BB700040C09 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 383C4A2120DB0BB700040C09 /* Build configuration list for PBXProject "LayerWhale" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 383C4A1D20DB0BB700040C09;
+			productRefGroup = 383C4A2720DB0BB700040C09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				383C4A2520DB0BB700040C09 /* LayerWhale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		383C4A2420DB0BB700040C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385048492174E4A600D36462 /* LayerWhaleIcon.icns in Resources */,
+				381F065820F571AD007CCB7C /* LWInvertTemplate.pdf in Resources */,
+				381F766C212CA6BC00D9221D /* LWExportTemplate.pdf in Resources */,
+				38ADB2FD2181EEDF00E32D8A /* LWMenuTemplate.pdf in Resources */,
+				3881551B213826D7002FCEBF /* LWIconTemplate.pdf in Resources */,
+				38EEB9852170E216004B3EA1 /* LWAspectRatioTemplate.pdf in Resources */,
+				38CA3AB2212315C100AB2632 /* LWExportBackgroundLayerTemplate.pdf in Resources */,
+				38CA3AB1212315C100AB2632 /* LWExportLayerTemplate.pdf in Resources */,
+				383C4A3620DB0BB700040C09 /* LWTimelinePalette.xib in Resources */,
+				38C9C9B121848BC7000EBF82 /* LWRevertTemplate.pdf in Resources */,
+				382C579421814A40005B40F0 /* LWPrefsViewController.xib in Resources */,
+				38A9713421811C1F006F081C /* LWPlayer.xib in Resources */,
+				382C579721814A59005B40F0 /* LWExportViewController.xib in Resources */,
+				38ADB2FA2181E9E200E32D8A /* LWBookmarkTemplate.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		384256A5213469BC0003CD7D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_INFO_PLIST=\"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\necho \"APP_INFO_PLIST $APP_INFO_PLIST\"\nDSYM_INFO_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\necho \"DSYM_INFO_PLIST $DSYM_INFO_PLIST\"\necho \"INFOPLIST_FILE $INFOPLIST_FILE\"\n\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$APP_INFO_PLIST\")\necho \"buildNumber old $buildNumber\"\nbuildNumber=$(($buildNumber + 1))\necho \"buildNumber new $buildNumber\"\n\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$APP_INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\nif [ -f \"$DSYM_INFO_PLIST\" ] ; then\necho \"found DSYM_INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$DSYM_INFO_PLIST\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		383C4A2220DB0BB700040C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383C4A3220DB0BB700040C09 /* LWTimelinePalette.m in Sources */,
+				385E5AF32188ADFC009BB618 /* GSAnchor+LWEquality.m in Sources */,
+				E9606708DF1592369A0BB927 /* LWTimeline.m in Sources */,
+				38815517213819DE002FCEBF /* LWPrefsViewController.m in Sources */,
+				387BC8522116E021004F13B5 /* NSData+GZIP.m in Sources */,
+				E9606E827D711755A5FB9D2E /* GSLayer+LWTimeline.m in Sources */,
+				38E586F920EF92110088AA7D /* LWPlayerController.m in Sources */,
+				E960631C6A572678FB252C91 /* LWLayerObserver.m in Sources */,
+				E9606293457BBC5F5AC7A26B /* LWPlayer.m in Sources */,
+				E96063B7D87C2D1F9DE5C4C2 /* LWPreferences.m in Sources */,
+				38E5C40A2129A3B900D43B65 /* LWExportViewController.m in Sources */,
+				E96068084F9F76C8264170B7 /* LWCenteringClipView.m in Sources */,
+				E9606C728F6DBBEF4AA063B8 /* GSGuideLine+LWEquality.m in Sources */,
+				38E454572125DEA40041B3E1 /* YYImageCoder.m in Sources */,
+				38ADB30021824AFA00E32D8A /* LWPlayerSliderCell.m in Sources */,
+				E96063EE8168ED664BCED71B /* LWCGPathContainer.m in Sources */,
+				E9606018F06E9E99821FD3ED /* NSBezierPath+CGPathGeneration.m in Sources */,
+				E960666FB08F6F6988C6C54F /* NSColor+LWUtility.m in Sources */,
+				384256A3213422FC0003CD7D /* LWOverlayScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		381F065620F571AD007CCB7C /* LWInvertTemplate.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382C579F21814B35005B40F0 /* Base */,
+			);
+			name = LWInvertTemplate.pdf;
+			sourceTree = "<group>";
+		};
+		381F766A212CA6BB00D9221D /* LWExportTemplate.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382C579B21814B17005B40F0 /* Base */,
+			);
+			name = LWExportTemplate.pdf;
+			sourceTree = "<group>";
+		};
+		382C579621814A40005B40F0 /* LWPrefsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382C579521814A40005B40F0 /* Base */,
+			);
+			name = LWPrefsViewController.xib;
+			sourceTree = "<group>";
+		};
+		382C579921814A59005B40F0 /* LWExportViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382C579821814A59005B40F0 /* Base */,
+			);
+			name = LWExportViewController.xib;
+			sourceTree = "<group>";
+		};
+		383C4A3420DB0BB700040C09 /* LWTimelinePalette.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382C579321814A2B005B40F0 /* Base */,
+			);
+			name = LWTimelinePalette.xib;
+			sourceTree = "<group>";
+		};
+		38815519213826D7002FCEBF /* LWIconTemplate.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382C579A21814B0E005B40F0 /* Base */,
+			);
+			name = LWIconTemplate.pdf;
+			sourceTree = "<group>";
+		};
+		38ADB2F82181E9E200E32D8A /* LWBookmarkTemplate.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38ADB2F92181E9E200E32D8A /* Base */,
+			);
+			name = LWBookmarkTemplate.pdf;
+			sourceTree = "<group>";
+		};
+		38ADB2FB2181EEDF00E32D8A /* LWMenuTemplate.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38ADB2FC2181EEDF00E32D8A /* Base */,
+			);
+			name = LWMenuTemplate.pdf;
+			sourceTree = "<group>";
+		};
+		38C9C9AF21848BC7000EBF82 /* LWRevertTemplate.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C9C9B021848BC7000EBF82 /* Base */,
+			);
+			name = LWRevertTemplate.pdf;
+			sourceTree = "<group>";
+		};
+		38CA3AAD212315C000AB2632 /* LWExportLayerTemplate.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382C579E21814B2D005B40F0 /* Base */,
+			);
+			name = LWExportLayerTemplate.pdf;
+			sourceTree = "<group>";
+		};
+		38CA3AAF212315C000AB2632 /* LWExportBackgroundLayerTemplate.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382C579D21814B27005B40F0 /* Base */,
+			);
+			name = LWExportBackgroundLayerTemplate.pdf;
+			sourceTree = "<group>";
+		};
+		38E586FA20EF92230088AA7D /* LWPlayer.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382C5792218149ED005B40F0 /* Base */,
+			);
+			name = LWPlayer.xib;
+			sourceTree = "<group>";
+		};
+		38EEB9822170E216004B3EA1 /* LWAspectRatioTemplate.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				382C579C21814B1E005B40F0 /* Base */,
+			);
+			name = LWAspectRatioTemplate.pdf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		383C4A3A20DB0BB700040C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		383C4A3B20DB0BB700040C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Release;
+		};
+		383C4A3D20DB0BB700040C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = KH5HQL98XH;
+				DSTROOT = "$(HOME)/Library/Application Support/Glyphs/Plugins";
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_APPS_DIR)/Glyphs.app/Contents/Frameworks",
+					"$(PROJECT_DIR)/Vendor",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LayerWhale/LayerWhale-Info.plist";
+				INSTALL_PATH = /;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makkuk.LayerWhale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = glyphsPalette;
+			};
+			name = Debug;
+		};
+		383C4A3E20DB0BB700040C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KH5HQL98XH;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SYSTEM_APPS_DIR)/Glyphs.app/Contents/Frameworks",
+					"$(PROJECT_DIR)/Vendor",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LayerWhale/LayerWhale-Info.plist";
+				INSTALL_PATH = /;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makkuk.LayerWhale;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = glyphsPalette;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		383C4A2120DB0BB700040C09 /* Build configuration list for PBXProject "LayerWhale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383C4A3A20DB0BB700040C09 /* Debug */,
+				383C4A3B20DB0BB700040C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383C4A3C20DB0BB700040C09 /* Build configuration list for PBXNativeTarget "LayerWhale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383C4A3D20DB0BB700040C09 /* Debug */,
+				383C4A3E20DB0BB700040C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 383C4A1E20DB0BB700040C09 /* Project object */;
+}
